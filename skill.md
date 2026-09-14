@@ -1,8 +1,8 @@
 Execute the S360-Daily-ETA-Reminder skill to check for missing ETAs in S360 action items. 
 
 CONFIGURATION:
-- Target Service: CPS Customer Engagement FastTrack Subscriptions
-- S360 Dashboard URL: https://vnext.s360.msftcloudes.com/blades/security?global=4:bc8ba3e6-226e-40e1-8e3d-766508baa641&blade=KPI:6a1e4c72-c344-49f1-af2d-f2c20827ad2d~SLA:3~AssignedTo:All~Forums:All~waves:All~Tab:Summary~_loc:Security&peopleBasedNodes=radhikad_team;v-tsukkala_team;rahay_team
+- Target Service: << Update target Service name here>> 
+- S360 Dashboard URL: << Copy and paste S360 dashboard URL>>
 - AUTO_SEND: false (Draft emails to Outlook for review)
 
 WORKFLOW:
@@ -23,7 +23,7 @@ EMAIL TEMPLATE REQUIREMENTS:
 - 24-hour completion deadline
 - NO Timeline Context section
 - NO "Best regards" section
-- SIGNATURE: "Thanks, Pravin Kumar"
+- SIGNATURE: "Thanks, << Your Name>>"
 
 OUTPUT:
 - If ETAs are missing: Create Outlook drafts with detailed reminder emails (ready to send)
