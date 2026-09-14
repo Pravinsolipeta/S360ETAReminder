@@ -4,7 +4,7 @@
 2. Go to Skills or custom skills.
 3. Create a new custom skill.
 4. Copy the contents of `skill.md`.
-5. Paste it into the skill instructions field.
+5. Paste it into the skill instructions field. Update the Target Service and paste S360 Dashboard URL
 6. Save the skill.
 7. Invoke it in Scout when you want to use it.
 
